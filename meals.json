@@ -1,7 +1,8 @@
 [
-    {"date": "2025-03-16", "description": "Niedziela", "link": "dupa"},
-    {"date": "2025-03-17", "description": "Niedziela", "link": "dupa"},
-    {"date": "2025-03-18", "description": "Niedziela", "link": "dupa"},
-    {"date": "2025-03-19", "description": "Niedziela", "link": "dupa"}
+    {"date": "2025-03-16", "description": "Niedziela", "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
+    {"date": "2025-03-17", "description": "Pierś w sosie słodko-kwaśnym, ziemniaki oraz surówka z kapusty. Do tego aromatyczna zupa kalafiorowa. 🍽️😊", "link": "https://www.fitatu.com/pl/share/meal/afc7eee14d4e77f8c0c46b4bea2bc952?meal=Lunch&food=Sweet%20and%20sour%20chicken,Ziemniaki,Sur%C3%B3wka%20z%20bia%C5%82ej%20kapusty,Kompot%20wi%C5%9Bniowy,Zupa%20kalafiorowa%20domowa"},
+    {"date": "2025-03-18", "description": "Link o godzinie 14:00", "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
+    {"date": "2025-03-19", "description": "Link o godzinie 14:00", "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
+    {"date": "2025-03-19", "description": "Link o godzinie 14:00", "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
 
 ]
