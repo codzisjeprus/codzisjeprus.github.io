@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
       setTimeout(function () {
         window.location.href = "https://www.instagram.com/lasa.nie.nasa/";
-      }, 5000); // Przekierowanie po 5 sekundach
+      }, 2500); // Przekierowanie po 5 sekundach
     });
   });
   
