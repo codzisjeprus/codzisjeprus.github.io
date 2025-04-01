@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B36FQSQSD6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-B36FQSQSD6');
+    </script>
+    <link rel="icon" type="image/png" href="images/codzisjeprus_logo.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ŁASA przejęło stronę!</title>
+    <br>
+    <br>
+    <br>
+    <br>
+    <title>Co dziś je Prus?</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
 </head>
 <body>
-    <!-- Główny tekst hacka -->
-    <div class="hack-text glitch">ŁASA</div>
+    <div class="navbar">
+        <button class="logo-button" onclick="window.location.href='index.html';">
+            <img src="images/logo.png" alt="Logo">
+        </button>
+        <a href="https://buymeacoffee.com/codzisjeprus" target="_blank">Kawka</a>
+        <a href="sklepik.html" target="_blank">Sklepik</a>
+    </div>
     
+    <div class="container">
+        <h1>Obiad Prusa</h1>
+        <h4 style="font-weight: normal;">🍽 Jadłospis – 8:00<br>🔗 Link do Fitatu – 14:00</h4>
+        <div id="today"></div>
+        <div id="yesterday"></div>
+        <input type="date" id="datePicker"> 
+        <button onclick="fetchByDate()">Sprawdź</button>
+        <div id="selectedDate"></div>
+    </div>
 
-    <!-- Odtwarzacz Rickrolla (ukryty) -->
-    <audio id="rickrollAudio" autoplay>
-        <source src="https://www.myinstants.com/media/sounds/rick-roll.mp3" type="audio/mp3">
-    </audio>
-
-    <script>
-        // Po 5 sekundach przekierowanie na Instagrama ŁASA
-        setTimeout(function() {
-            window.location.href = "https://www.instagram.com/lasa.nie.nasa/";
-        }, 5000);
-    </script>
+    <script src="script.js"></script>
+    <div id="cookie-popup">
+        <div class="popup-content">
+          <p>Akceptujesz pliki cookie?</p>
+          <button id="accept-btn">Akceptuj</button>
+        </div>
+      </div>
+      
+      <div id="rickroll" class="hidden">
+        <iframe 
+          width="300" 
+          height="169" 
+          src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1&rel=0" 
+          allow="autoplay">
+        </iframe>
+      </div>
+      
 </body>
 </html>
