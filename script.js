@@ -36,16 +36,3 @@ function fetchByDate() {
 }
 
 fetchMeals();
-document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("cookie-popup").style.display = "block"; // Pokaż okienko od razu
-  
-    document.getElementById("accept-btn").addEventListener("click", function () {
-      document.getElementById("cookie-popup").style.display = "none"; // Schowaj okienko
-      document.getElementById("rickroll").style.display = "block"; // Pokaż odtwarzacz
-  
-      setTimeout(function () {
-        window.location.href = "https://www.instagram.com/lasa.nie.nasa/";
-      }, 2500); // Przekierowanie po 5 sekundach
-    });
-  });
-  
