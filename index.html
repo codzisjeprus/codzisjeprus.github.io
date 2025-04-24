@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B36FQSQSD6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-B36FQSQSD6');
+    </script>
+    <link rel="icon" type="image/png" href="images/codzisjeprus_logo.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <br>
+    <br>
+    <br>
+    <br>
     <title>Co dziś je Prus?</title>
-    <link rel="icon" type="image/png" href="images/codzisjeprus_logo.ico">
     <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
 </head>
 <body>
     <div class="navbar">
         <button class="logo-button" onclick="window.location.href='index.html';">
             <img src="images/logo.png" alt="Logo">
         </button>
+        <a href="https://buymeacoffee.com/codzisjeprus" target="_blank">Kawka</a>
         <a href="sklepik.html" target="_blank">Sklepik</a>
     </div>
-    <br><br><br><br>
+    
     <div class="container">
-        <br>
-        <h1>Cześć!</h1>
-        <p>Nie mam obecnie czasu, by dalej prowadzić tę stronę.</p>
-        <p>W związku z tym planuję ją zamknąć.</p>
-        <p>Jeśli chcesz przejąć projekt i samodzielnie dodawać wpisy — chętnie go oddam!</p>
-        <p>Odezwij się: <strong>codzisjeprus@outlook.com</strong></p>
-        <p>Dzięki za wspólne obiady! 🍽</p>
+        <h1>Obiad Prusa</h1>
+        <h4 style="font-weight: normal;">🍽 Jadłospis – 8:00<br>🔗 Link do Fitatu – 14:00</h4>
+        <div id="today"></div>
+        <div id="yesterday"></div>
+        <input type="date" id="datePicker"> 
+        <button onclick="fetchByDate()">Sprawdź</button>
+        <div id="selectedDate"></div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
